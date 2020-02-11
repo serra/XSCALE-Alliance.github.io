@@ -37,6 +37,8 @@ page '/*.txt', layout: false
 # for useful tips when this redirect list gets big
 
 redirect "pm.tour/index.html", to: "/promo/pm.tour/index.html"
+redirect "tour/index.html", to: "/promo/tour/index.html"
+redirect "research/index.html", to: "/promo/research/index.html"
 
 ###
 # Helpers
