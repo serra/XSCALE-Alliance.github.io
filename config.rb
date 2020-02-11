@@ -30,6 +30,15 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 ###
+# Redirects
+###
+
+# see https://jeremysmith.co/posts/2017-02-14-managing-redirects-in-middleman/
+# for useful tips when this redirect list gets big
+
+redirect "pm.tour/index.html", to: "/promo/pm.tour/index.html"
+
+###
 # Helpers
 ###
 
