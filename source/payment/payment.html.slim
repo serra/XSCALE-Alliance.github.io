@@ -15,7 +15,7 @@ title: XSCALE Consulting (EUR)
 
           <!-- Create a button that your customers click to complete their purchase. -->
           h3 XSCALE Consulting Payment
-          a.button id="checkout-button-#{sku_id}" Pay #{payment_caption}
+          a.button id="checkout-button-#{payment.sku_id}" Pay #{payment.caption}
           div id="error-message"
 
-          <script> var stripe = Stripe('pk_live_0vHGBpMIGCdZ9P2cirSNcKkU'); var checkoutButton = document.getElementById('checkout-button-#{sku_id}'); checkoutButton.addEventListener('click', function () { stripe.redirectToCheckout({ items: [{sku: '#{sku_id}', quantity: 1}], successUrl: 'http://xscalealliance.org/payments/paid.html', cancelUrl: 'http://xscalealliance.org/payments#{name}.html', }) .then(function (result) { if (result.error) { var displayError = document.getElementById('error-message'); displayError.textContent = result.error.message; } }); }); </script>
+          <script> var stripe = Stripe('pk_live_0vHGBpMIGCdZ9P2cirSNcKkU'); var checkoutButton = document.getElementById('checkout-button-#{payment.sku_id}'); checkoutButton.addEventListener('click', function () { stripe.redirectToCheckout({ items: [{sku: '#{payment.sku_id}', quantity: 1}], successUrl: 'http://xscalealliance.org/payments/paid.html', cancelUrl: 'http://xscalealliance.org/payments#{payment.name}.html', }) .then(function (result) { if (result.error) { var displayError = document.getElementById('error-message'); displayError.textContent = result.error.message; } }); }); </script>

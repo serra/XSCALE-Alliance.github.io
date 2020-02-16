@@ -1,0 +1,9 @@
+- sku_id: a123
+  payment_caption: '$123'
+  name: 123USD
+- sku_id: d101
+  payment_caption: '€101'
+  name: 101EUR
+- sku_id: a111
+  payment_caption: '111 AUD'
+  name: 111AUD

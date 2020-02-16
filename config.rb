@@ -87,9 +87,9 @@ end
 # payment pages
 
 # Assumes the file source/about/template.html.erb exists
-["tom", "dick", "harry"].each do |name|
-  proxy "/payment/#{name}.html", "/payment/payment.html", 
-    :locals => { :sku_id => name, :name => name, :payment_caption => name },
+data.payments.each do |payment|
+  proxy "/payment/#{payment.name}.html", "/payment/payment.html", 
+    :locals => { :payment => payment },
     :ignore => true
 end
 
