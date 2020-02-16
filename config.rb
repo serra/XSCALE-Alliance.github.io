@@ -65,6 +65,8 @@ activate :deploy do |deploy|
   deploy.branch = 'master'
 end
 
+#blogs for news and the peole directory
+
 page "/feed.xml", layout: false
 page "/news/feed.xml", layout: false
 activate :blog do |blog|
@@ -80,6 +82,15 @@ activate :blog do |blog|
   blog.permalink = "{title}.html"
   blog.layout = "person"
   blog.tag_template = "directory/tag.html"
+end
+
+# payment pages
+
+# Assumes the file source/about/template.html.erb exists
+["tom", "dick", "harry"].each do |name|
+  proxy "/payment/#{name}.html", "/payment/payment.html", 
+    :locals => { :sku_id => name, :name => name, :payment_caption => name },
+    :ignore => true
 end
 
 set :relative_links, true
