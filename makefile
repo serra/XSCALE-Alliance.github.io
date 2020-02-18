@@ -10,7 +10,6 @@ update: bootstrap
 server:
 	bundle exec middleman server
 test: cibuild
-	# this assumes htmlproofer is available
 	bundle exec ruby run_tests.rb
 cibuild:
 	bundle exec middleman build
