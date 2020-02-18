@@ -11,7 +11,7 @@ server:
 	bundle exec middleman server
 test: cibuild
 	# this assumes htmlproofer is available
-	htmlproofer --empty-alt-ignore --disable-external --allow-hash-href ./build
+	bundle exec ruby run_tests.rb
 cibuild:
 	bundle exec middleman build
 console: server
