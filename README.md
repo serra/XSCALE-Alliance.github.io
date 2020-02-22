@@ -33,7 +33,7 @@ See [Middleman development cycle] to get started.
 
 ## Deploying
 
-To deploy the website:
+To deploy the website manually, from your own computer:
 
 ```
 make deploy
@@ -41,8 +41,6 @@ make deploy
 
 This will build the site, publish the build output to the master branch 
 and push the master branch to its tracking branch.
-
-Currently, Peter is the only person who publishes the website.
 
 ## Contributing
 
