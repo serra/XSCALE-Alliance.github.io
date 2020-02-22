@@ -33,6 +33,8 @@ See [Middleman development cycle] to get started.
 
 ## Deploying
 
+A push to the `source` branch will trigger build and deploy to the live website.
+
 To deploy the website manually, from your own computer:
 
 ```
@@ -45,6 +47,8 @@ and push the master branch to its tracking branch.
 ## Contributing
 
 Please share your contributions by sending pull requests against the `source` branch.
+Your changes will be checked automatically. 
+Once your PR gets merged, it will be automatically published on the live website.
 
 Sharing is caring!
 
