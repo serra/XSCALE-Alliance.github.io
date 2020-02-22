@@ -108,8 +108,6 @@ Credits:
 
 </details>
 
-<!-- dummy change to trigger a build -->
-
 ---
 
   [Middleman]: https://middlemanapp.com/
