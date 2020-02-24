@@ -21,6 +21,8 @@ gem 'middleman-metaman'
 gem 'builder'
 gem 'middleman-jquery'
 gem 'font-awesome-sass', '~> 4.5'     # update to ~> 5.0 is breaking (e.g. social links) 
+gem 'sassc', '= 2.1.0'                # more recent versions introduce a bug on our github actions
+                                      # https://github.com/actions/cache/issues/196
 
 gem 'slim'
 gem 'nokogiri'
