@@ -35,7 +35,7 @@ This a suggestion for proposed work at a client for a three-week engagement with
 [Ecosystems Thinking] : an assessment and design method for networks of mutual benefit that emphasizes continuous whole-board strategies, breadth-first reductive reasoning, and non-local coaching strategies focused on opening organizational bottlenecks to learning flow.
 
   [Self-Propagating Transformation]: https://medium.com/@xscalealliance/self-propagating-transformation-e7668c28dbd4
-  [Leadership As A Service]: https://medium.com/@xscalealliance/leadership-as-a-service-6bf4ebb1199b
+  [Leadership As A Service]: /articles/2017/09/18/leadership-service.html
   [3D Kanban]: /articles/2017/09/04/3d-kanban.html
   [Open Space]: https://openspaceworld.org/wp2/
   [Mu Hin Shu]: https://medium.com/@xscalealliance/the-samurai-and-the-tea-master-7ae63d7af640
