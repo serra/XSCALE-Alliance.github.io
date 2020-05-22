@@ -7,11 +7,11 @@
 	@import 'skel/dist/_skel';
 
 	@include skel-breakpoints((
-		xlarge: '(max-width: 14000px)',
-		large: '(max-width: 13000px)',
-		medium: '(max-width:1200px)',
-		small: '(max-width: 1125px)',
-		xsmall: '(max-width: 480px)'
+		xlarge: '(max-width: 14000px)',   // original: 1680
+		large: '(max-width: 13000px)',    // original: 1280
+		medium: '(max-width: 1200px)',    // original:  980
+		small: '(max-width: 1125px)',     // original:  736
+		xsmall: '(max-width: 480px)'     // original:  480
 	));
 
 	@include skel-layout((
@@ -74,7 +74,8 @@
 		border-bottom-color: transparent;
 		color: _palette(accent5);
 		text-decoration: none;
-
+		font-weight: bold;
+		
 		&:hover {
 			color: _palette(accent5) !important;
 			border-bottom: dotted 1px;
