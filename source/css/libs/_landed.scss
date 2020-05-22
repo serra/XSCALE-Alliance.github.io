@@ -7,10 +7,10 @@
 	@import 'skel/dist/_skel';
 
 	@include skel-breakpoints((
-		xlarge: '(max-width: 1680px)',   // original: 1680
-		large: '(max-width: 1680px)',    // original: 1280
-		medium: '(max-width: 1280px)',    // original:  980
-		small: '(max-width: 980px)',     // original:  736
+		xlarge: '(max-width: 14000px)',   // original: 1680
+		large: '(max-width: 13000px)',    // original: 1280
+		medium: '(max-width: 1200px)',    // original:  980
+		small: '(max-width: 1125px)',     // original:  736
 		xsmall: '(max-width: 480px)'     // original:  480
 	));
 
