@@ -1,0 +1,7 @@
+ruby:
+  context ||= current_page
+
+<h3>Courses by #{context.data.title}</h3>
+
+<script>window.addEventListener('message',function(e){if(!e.data.corsizio)return;var f=document.getElementById('CS_portal_5ce14dbc1a64e24f3fd7e7b7');e.data.height>=0&&(f.height=e.data.height+'px');e.data.scrollTo>=0&&window.scrollTo(0,e.data.scrollTo);e.data.scrollIntoView&&f.scrollIntoView();});</script>
+<iframe id="CS_portal_5ce14dbc1a64e24f3fd7e7b7" src="https://xscale.corsizio.com?embed=noheader,notoolbar,nophotos,nomessages,nosocial,nopadding,plain,newtab,nocalendar&instructor=#{context.data.corsizio_instructor_id || -1}" width="100%" height="100%" frameborder="0"></iframe>
