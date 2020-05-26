@@ -24,7 +24,7 @@ blog: directory
         /! Content
         section#content
           h3 People tagged #{tagname}
-          - page_articles.each_with_index do |article, i|
+          - page_articles.sort_by{|article| article.title.downcase }.each_with_index do |article, i|
             div
               a href=article.url 
                 = article.title

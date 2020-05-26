@@ -30,6 +30,14 @@ img.person-thumbnail {
   float: right;
 }
 
-li.people-list {
+ul.people-list {
+  padding-left: 0em;
+}
+
+ul.people-list li {
   list-style-type: none;
+}
+
+ul.people-list li:nth-child(5n) {
+  padding-bottom: 1em;
 }
