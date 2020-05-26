@@ -18,3 +18,7 @@ ul.icons
     li
       a.icon.alt.fa-envelope href="#{context.data.contact}" 
         span.label Email
+  - if context.data.corsizio_instructor_id
+    li
+      a.icon.alt.fa-university href="https://xscale.corsizio.com/?instructor=#{context.data.corsizio_instructor_id}" 
+        span.label Courses
