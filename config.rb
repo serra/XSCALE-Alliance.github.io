@@ -89,3 +89,4 @@ activate :blog do |blog|
 end
 
 set :relative_links, true
+

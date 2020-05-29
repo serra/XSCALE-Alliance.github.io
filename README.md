@@ -106,6 +106,8 @@ Credits:
 
 </details>
 
+[CSV Helpers](https://gist.github.com/lachlanmcdonald/f6332fab46baae7ae6d7) by Lachlan McDonald, MIT License.
+
 ---
 
   [Middleman]: https://middlemanapp.com/
