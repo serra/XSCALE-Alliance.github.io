@@ -1,0 +1,30 @@
+---
+title: no sidebar
+---
+/! Main
+#main.wrapper.style1
+  .container
+    header.major
+      h2 Course Feedback
+      p This is how our students rated our courses.
+    /! Content
+    section#content
+      a.image.fit href="#" 
+        img alt="" src="../img/xscale-banner.png"
+      - csv_data('corsizio-feedback-export.csv').each do |fb|
+        h3
+          span.stars
+            - (1..5).each do |i|
+              - if i <= fb[:feedback_rating].to_i
+                i class="fa fa-star"
+              - else
+                i class="fa fa-star-o"
+        blockquote #{fb[:feedback_comment]}
+        p #{fb[:name]}
+        ul
+          li Instructor: #{fb[:instructors]}  
+          li Course: #{fb[:event_name]}
+          li Date: #{fb[:feedback_date]}
+      p
+        a href="https://xscale.corsizio.com/f/5ce14dbc1a64e24f3fd7e7b7"
+          = 'See all feedback on the Corsizio Portal'
