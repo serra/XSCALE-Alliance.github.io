@@ -8,7 +8,7 @@ description: >
   Halldor Kvale-Skattebo's profile page - XSCALE Business Agility Coach 
   and XSCALE Product Management Coach.
   XSCALE: A learning ecosystem for eXponential Simple Continuous Autonomous Learning Ecosystems
-image: ./pic/pod.png
+image: ./pic/halldor-kvale-skattebo.png
 linkedin: https://www.linkedin.com/in/skattebo/
 github: ''
 twitter: ''
