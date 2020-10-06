@@ -12,7 +12,7 @@ image: ./pic/pod.png
 linkedin: https://www.linkedin.com/in/skattebo/
 github: ''
 twitter: ''
-contact: hks@humanize.no
+contact: "mailto:hks@humanize.no"
 corsizio_instructor_id: 
 
 ---
